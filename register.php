@@ -13,9 +13,9 @@
     </form>
     <br>
     <?php
-define("USER","3655");
-define("PASS","3655");
-define("DB","3655");
+define("USER","adm_webgenerator");
+define("PASS","webgenerator2020");
+define("DB","webgenerator2020");
 define("HOST","mattprofe.com.ar");
 if (isset($_POST["Crear"]))
 {

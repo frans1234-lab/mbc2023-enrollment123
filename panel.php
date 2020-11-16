@@ -11,9 +11,9 @@
 	{
 		header("location: login.php");
 	}
-	define("USER","3655");
-	define("PASS","3655");
-	define("DB","3655");
+	define("USER","adm_webgenerator");
+	define("PASS","webgenerator2020");
+	define("DB","webgenerator");
 	define("HOST","mattprofe.com.ar");
 	$db = new mysqli(HOST, USER, PASS, DB);
 	$email=$_SESSION["email"];
